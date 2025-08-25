@@ -1,5 +1,4 @@
 import { Head, Link, usePage } from '@inertiajs/react';
-import { Author } from './author';
 import type { GameStats, QuizSessionData } from '@/types';
 
 interface Props {
@@ -84,7 +83,6 @@ export default function Welcome() {
                             <p className="mt-1">頑張って満点を目指そう！ 🎉</p>
                         </div>
                         {/* この部分はご自由に変更してください。 */}
-                        <Author />
                     </div>
                 </div>
             </div>

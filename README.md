@@ -52,9 +52,9 @@ php artisan migrate
 php artisan db:seed --class=EnglishWordsSeeder
 php artisan db:seed --class=AdminUserSeeder
 
-# フロントエンド
-npm install
-npm run dev
+# フロントエンド（npm または bun）
+npm install  # または bun install
+npm run dev  # または bun dev
 
 # 起動
 php artisan serve
