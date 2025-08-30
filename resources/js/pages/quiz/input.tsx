@@ -222,6 +222,7 @@ export default function Input() {
                                             autoFocus
                                             onChange={(e) => setUserInput(e.target.value)}
                                             className="w-full p-4 border border-gray-300 rounded-xl text-lg text-gray-900 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                            maxLength={20}
                                         />
                                         {message === "不正解2回目" && (
                                             <button
